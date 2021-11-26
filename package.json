@@ -1,5 +1,5 @@
 {
-  "name": "a-voces",
+  "name": "mi-voz-backend",
   "version": "1.0.0",
   "description": "Manager for actors/actress to store contacts, companies, documents and recordings. Also it has a public interface so they can show their work",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielsalgadop/a-voces.git"
+    "url": "git+https://github.com/danielsalgadop/mi-voz-backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielsalgadop/a-voces/issues"
+    "url": "https://github.com/danielsalgadop/mi-voz-backend/issues"
   },
-  "homepage": "https://github.com/danielsalgadop/a-voces#readme",
+  "homepage": "https://github.com/danielsalgadop/mi-voz-backend#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
