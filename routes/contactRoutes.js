@@ -9,11 +9,11 @@ const { connect } = require('../connections/MysqlConnection');
 router.get('/', (req, res) => {
     connect()
     .then((connection) =>{
-        let result = connection.query('SELECT * from contact',
-        function (err, rows, fields) {
+        let sql = 'SELECT * from contact';
+
+        connection.query( sql, (err, rows, fields) => {
 
             let asjson = [];
-            var s = "";
             for (var i = 0; i < rows.length; i++) {
                 asjson.push({ 'name': rows[i].name, 'surname': rows[i].surname });
             }
