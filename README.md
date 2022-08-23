@@ -8,8 +8,8 @@ Manager tool for voice actors/actress (aka Owner), to manage: schedule contacts,
 ## Page Models
 
 - Owner: only one with access to Private Zone
-- Contact: owner's intereset in
-- Company: can contain n Contacts. owner's intereset in
+- Contact: owner's interest in
+- Company: can contain n Contacts. owner's interest in
 - Recording: audio recorded by Owner
 - Schedule:
 
