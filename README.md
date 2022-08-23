@@ -7,9 +7,9 @@ Manager tool for voice actors/actress (aka Owner), to manage: schedule contacts,
 
 ## Page Models
 
-- Owner: only one with acces to Private Zone
-- Contact: person with interest for owner
-- Companiy: can contain n Contacts. Has interest for owner
+- Owner: only one with access to Private Zone
+- Contact: owner's intereset in
+- Company: can contain n Contacts. owner's intereset in
 - Recording: audio recorded by Owner
 - Schedule:
 
@@ -23,12 +23,12 @@ Manager tool for voice actors/actress (aka Owner), to manage: schedule contacts,
 		-  as contact
 		-  as company
 
-- Private Area (owner must be loged in)
+- Private Area (owner must be logged in)
 	- Schedule
 	- Contact CRUD
-		- added/delet from company
+		- added/delete from company
 	- Company CRUD
-		- add/delete presons
+		- add/delete persons
 	- Recorings CRUD
 
 ## TODO
@@ -41,5 +41,5 @@ Manager tool for voice actors/actress (aka Owner), to manage: schedule contacts,
 
 # BACKLOG
 
-- add companyProposal from public Area: anonymouns company can ask for a connection
-- add Document Model with CRUD: text with interest for owner
+- add companyProposal from public Area: anonymous company can ask for a connection
+- add Document Model with CRUD: text with interest in owner
